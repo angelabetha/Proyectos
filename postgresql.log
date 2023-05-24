@@ -1,0 +1,48 @@
+2021-08-15 21:02:30.930 CST [28407] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.62), 64-bit
+2021-08-15 21:02:30.933 CST [28407] LOG:  listening on IPv6 address "::1", port 5432
+2021-08-15 21:02:30.933 CST [28407] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-08-15 21:02:30.934 CST [28407] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-08-15 21:02:30.937 CST [28408] LOG:  database system was shut down at 2021-08-15 21:02:30 CST
+2021-08-15 21:02:30.947 CST [28407] LOG:  database system is ready to accept connections
+2021-08-15 21:09:19.858 CST [28407] LOG:  received fast shutdown request
+2021-08-15 21:09:19.858 CST [28407] LOG:  aborting any active transactions
+2021-08-15 21:09:19.859 CST [28407] LOG:  background worker "logical replication launcher" (PID 28414) exited with exit code 1
+2021-08-15 21:09:19.860 CST [28409] LOG:  shutting down
+2021-08-15 21:09:19.866 CST [28407] LOG:  database system is shut down
+2021-10-10 23:57:11.201 CST [98258] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.62), 64-bit
+2021-10-10 23:57:11.205 CST [98258] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-10 23:57:11.205 CST [98258] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-10 23:57:11.206 CST [98258] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-10 23:57:11.225 CST [98259] LOG:  database system was shut down at 2021-08-15 21:09:19 CST
+2021-10-10 23:57:11.238 CST [98258] LOG:  database system is ready to accept connections
+2021-10-11 15:33:49.543 CST [98258] LOG:  could not open file "postmaster.pid": No such file or directory
+2021-10-11 15:33:49.546 CST [98258] LOG:  performing immediate shutdown because data directory lock file is invalid
+2021-10-11 15:33:49.546 CST [98258] LOG:  received immediate shutdown request
+2021-10-11 15:33:49.546 CST [98258] LOG:  could not open file "postmaster.pid": No such file or directory
+2021-10-11 15:33:49.546 CST [223] WARNING:  terminating connection because of crash of another server process
+2021-10-11 15:33:49.546 CST [223] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2021-10-11 15:33:49.546 CST [223] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2021-10-11 15:33:49.547 CST [98263] WARNING:  terminating connection because of crash of another server process
+2021-10-11 15:33:49.547 CST [98263] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2021-10-11 15:33:49.547 CST [98263] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2021-10-11 15:33:49.552 CST [98258] LOG:  database system is shut down
+2021-10-11 15:58:13.534 CST [1395] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.62), 64-bit
+2021-10-11 15:58:13.537 CST [1395] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-11 15:58:13.537 CST [1395] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-11 15:58:13.538 CST [1395] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-11 15:58:13.558 CST [1396] LOG:  database system was interrupted; last known up at 2021-10-11 00:02:11 CST
+2021-10-11 15:58:13.704 CST [1396] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-11 15:58:13.710 CST [1396] LOG:  redo starts at 0/15F4448
+2021-10-11 15:58:13.710 CST [1396] LOG:  invalid record length at 0/15F4530: wanted 24, got 0
+2021-10-11 15:58:13.710 CST [1396] LOG:  redo done at 0/15F44F8
+2021-10-11 15:58:13.723 CST [1395] LOG:  database system is ready to accept connections
+2021-10-11 16:09:23.769 CST [1621] ERROR:  syntax error at or near "c" at character 1
+2021-10-11 16:09:23.769 CST [1621] STATEMENT:  c/
+	d/
+	/c
+	create table mysite ();
+2021-10-11 17:29:54.157 CST [2853] FATAL:  role "Angela" does not exist
+2021-11-10 11:24:24.780 CST [1395] LOG:  received smart shutdown request
+2021-11-10 11:24:24.787 CST [1395] LOG:  background worker "logical replication launcher" (PID 1402) exited with exit code 1
+2021-11-10 11:24:24.788 CST [1397] LOG:  shutting down
+2021-11-10 11:24:24.818 CST [1395] LOG:  database system is shut down
